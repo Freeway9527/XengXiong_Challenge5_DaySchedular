@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day Scheduler</title>
+
+  <!-- Font Awesome stylesheet for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Orbitron&family=Skranji&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+  <!-- Jumbotron section -->
+  <section class="jumbotron">
+    <h1 class="display-4">Work Day Scheduler</h1>
+    <p class="lead" id="currentDay"></p>
+  </section>
+
+  <!-- Time blocks with columns -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <section class="time-block" id="hour-9">
+          <aside class="hour">9:00 AM</aside>
+          <textarea></textarea>
+          <button class="saveBtn"><i class="fas fa-save" aria-hidden="true"></i>SAVE</button>
+        </section>
+      </div>
+
+      <div class="col-md-12">
+        <section class="time-block" id="hour-10">
+          <aside class="hour">10:00 AM</aside>
+          <textarea></textarea>
+          <button class="saveBtn"><i class="fas fa-save" aria-hidden="true"></i>SAVE</button>
+        </section>
+      </div>
+
+      <div class="col-md-12">
+        <section class="time-block" id="hour-11">
+          <aside class="hour">11:00 AM</aside>
+          <textarea></textarea>
+          <button class="saveBtn"><i class="fas fa-save" aria-hidden="true"></i>SAVE</button>
+        </section>
+      </div>
+
+      <div class="col-md-12">
+        <section class="time-block" id="hour-12">
+          <aside class="hour">12:00 PM</aside>
+          <textarea></textarea>
+          <button class="saveBtn"><i class="fas fa-save" aria-hidden="true"></i>SAVE</button>
+        </section>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <section class="time-block" id="hour-13">
+          <aside class="hour">1:00 PM</aside>
+          <textarea></textarea>
+          <button class="saveBtn"><i class="fas fa-save" aria-hidden="true"></i>SAVE</button>
+        </section>
+      </div>
+
+      <div class="col-md-12">
+        <section class="time-block" id="hour-14">
+          <aside class="hour">2:00 PM</aside>
+          <textarea></textarea>
+          <button class="saveBtn"><i class="fas fa-save" aria-hidden="true"></i>SAVE</button>
+        </section>
+      </div>
+
+      <div class="col-md-12">
+        <section class="time-block" id="hour-15">
+          <aside class="hour">3:00 PM</aside>
+          <textarea></textarea>
+          <button class="saveBtn"><i class="fas fa-save" aria-hidden="true"></i>SAVE</button>
+        </section>
+      </div>
+
+      <div class="col-md-12">
+        <section class="time-block" id="hour-16">
+          <aside class="hour">4:00 PM</aside>
+          <textarea></textarea>
+          <button class="saveBtn"><i class="fas fa-save" aria-hidden="true"></i>SAVE</button>
+        </section>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <section class="time-block" id="hour-17">
+          <aside class="hour">5:00 PM</aside>
+          <textarea></textarea>
+          <button class="saveBtn"><i class="fas fa-save" aria-hidden="true"></i>SAVE</button>
+        </section>
+      </div>
+    </div>
+    
+  </div>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- dayjs -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.7/dayjs.min.js"></script>
+  <script src="./assets/JS/script.js"></script>
+
+</body>
+
+</html>
